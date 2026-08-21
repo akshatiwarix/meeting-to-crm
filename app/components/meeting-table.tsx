@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { MeetingResult } from "@/lib/domain/result";
 import { DEAL_STAGES, type DealStage, type AmbiguityProfile } from "@/lib/domain/meeting";
 import { ConfidenceBadge } from "./confidence-badge";
+import { STAGE_LABEL } from "./stage-label";
 
 type SortColumn = "accuracy" | "stage" | "date";
 const ALL = "All" as const;
@@ -14,15 +15,6 @@ const SORT_LABEL: Record<SortColumn, string> = {
   accuracy: "accuracy",
   stage: "stage",
   date: "date",
-};
-
-const STAGE_LABEL: Record<DealStage, string> = {
-  discovery: "Discovery",
-  demo: "Demo",
-  proposal: "Proposal",
-  negotiation: "Negotiation",
-  "closed-won": "Closed Won",
-  "closed-lost": "Closed Lost",
 };
 
 export function MeetingTable({ meetings }: { meetings: MeetingResult[] }) {
