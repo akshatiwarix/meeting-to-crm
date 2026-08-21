@@ -610,23 +610,23 @@ claims) in plain language, no code.
 
 ## Definition of done
 
-- [ ] `npm run build`, `npm run typecheck`, `npm run lint` all clean.
-- [ ] `npm test` green, including every extraction-rule, grading-formula, and
+- [x] `npm run build`, `npm run typecheck`, `npm run lint` all clean.
+- [x] `npm test` green, including every extraction-rule, grading-formula, and
       evidence-traceability assertion.
-- [ ] `npm run sweep` green on all nine invariants.
-- [ ] Meeting to CRM live on Vercel, opening on the precomputed library with no
+- [x] `npm run sweep` green on all nine invariants.
+- [x] Meeting to CRM live on Vercel, opening on the precomputed library with no
       interaction required; SSO protection confirmed disabled.
-- [ ] All three screens implemented, reading from one meeting-crm computation
+- [x] All three screens implemented, reading from one meeting-crm computation
       (library and detail) plus one client-safe shared extractor (try-it).
-- [ ] Corpus accuracy panel renders and its clean/ambiguous split is visibly
+- [x] Corpus accuracy panel renders and its clean/ambiguous split is visibly
       different (verified in-browser on the live deployment).
-- [ ] Meeting detail page renders transcript, extracted record, evidence, and
+- [x] Meeting detail page renders transcript, extracted record, evidence, and
       grade badges for at least one clean and one ambiguous meeting.
-- [ ] Try It Yourself extracts live from both the prefilled example and a
+- [x] Try It Yourself extracts live from both the prefilled example and a
       freely typed transcript, with no console errors.
-- [ ] README with real screenshots from the live deployment; plain-English
+- [x] README with real screenshots from the live deployment; plain-English
       guide.
-- [ ] Every task pushed to `main`.
+- [x] Every task pushed to `main`.
 
 ---
 
