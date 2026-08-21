@@ -52,7 +52,8 @@ export function ExtractedRecordPanel({
   grade,
 }: {
   extracted: ExtractedRecord;
-  grade: MeetingGrade;
+  /** Omit for ungraded input (Try It Yourself) — there is no ground truth to grade arbitrary text against. */
+  grade?: MeetingGrade;
 }) {
   return (
     <div>
@@ -60,14 +61,14 @@ export function ExtractedRecordPanel({
         label="Company"
         value={extracted.companyMentioned.value ?? "Not found"}
         confidence={extracted.companyMentioned.confidence}
-        match={grade.companyMatch}
+        match={grade?.companyMatch}
         evidence={extracted.companyMentioned.evidence}
       />
       <Field
         label="Deal stage"
         value={extracted.dealStage.value ? STAGE_LABEL[extracted.dealStage.value] : "Unclear"}
         confidence={extracted.dealStage.confidence}
-        match={grade.dealStageMatch}
+        match={grade?.dealStageMatch}
         evidence={extracted.dealStage.evidence}
       />
 
@@ -76,10 +77,12 @@ export function ExtractedRecordPanel({
           <span className="text-xs uppercase tracking-wide text-ink-dim">
             Contacts ({extracted.contacts.length})
           </span>
-          <span className="text-xs text-ink-dim">
-            {grade.contactsTally.matched} matched · {grade.contactsTally.missed} missed
-            {grade.contactsTally.falsePositive > 0 ? ` · ${grade.contactsTally.falsePositive} unexpected` : ""}
-          </span>
+          {grade && (
+            <span className="text-xs text-ink-dim">
+              {grade.contactsTally.matched} matched · {grade.contactsTally.missed} missed
+              {grade.contactsTally.falsePositive > 0 ? ` · ${grade.contactsTally.falsePositive} unexpected` : ""}
+            </span>
+          )}
         </div>
         {extracted.contacts.length === 0 ? (
           <p className="mt-1 text-sm italic text-ink-dim">None found.</p>
@@ -105,12 +108,14 @@ export function ExtractedRecordPanel({
           <span className="text-xs uppercase tracking-wide text-ink-dim">
             Action items ({extracted.actionItems.length})
           </span>
-          <span className="text-xs text-ink-dim">
-            {grade.actionItemsTally.matched} matched · {grade.actionItemsTally.missed} missed
-            {grade.actionItemsTally.falsePositive > 0
-              ? ` · ${grade.actionItemsTally.falsePositive} unexpected`
-              : ""}
-          </span>
+          {grade && (
+            <span className="text-xs text-ink-dim">
+              {grade.actionItemsTally.matched} matched · {grade.actionItemsTally.missed} missed
+              {grade.actionItemsTally.falsePositive > 0
+                ? ` · ${grade.actionItemsTally.falsePositive} unexpected`
+                : ""}
+            </span>
+          )}
         </div>
         {extracted.actionItems.length === 0 ? (
           <p className="mt-1 text-sm italic text-ink-dim">None found.</p>
