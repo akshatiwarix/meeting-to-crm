@@ -1,0 +1,3435 @@
+{
+  "meetings": [
+    {
+      "id": "meeting-001",
+      "date": "2026-02-25",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Lee",
+          "text": "This is Jordan Lee, I'm the Director of Engineering here at Umbra Analytics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Lee",
+          "text": "You can reach me at jordan.lee@umbraanalytics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Lee",
+          "text": "We're currently in legal review on the contract."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Lee",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Jordan Lee",
+            "role": "Director of Engineering",
+            "email": "jordan.lee@umbraanalytics.com"
+          }
+        ],
+        "dealStage": "negotiation",
+        "actionItems": [],
+        "companyMentioned": "Umbra Analytics"
+      }
+    },
+    {
+      "id": "meeting-002",
+      "date": "2026-02-25",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Brown",
+          "text": "This is Zoe Brown, I'm the Director of Operations here at Sable Analytics."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Brown",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Zoe Brown will schedule the follow-up call."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Zoe Brown will schedule the follow-up call."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Brown",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Zoe Brown",
+            "role": "Director of Operations",
+            "email": null
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "schedule the follow-up call",
+            "owner": "Zoe Brown",
+            "dueHint": null
+          },
+          {
+            "text": "schedule the follow-up call",
+            "owner": "Zoe Brown",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Sable Analytics"
+      }
+    },
+    {
+      "id": "meeting-003",
+      "date": "2026-02-24",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Brown",
+          "text": "This is Leo Brown, I'm the Director of Operations here at Rivet Digital."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Davis",
+          "text": "This is Grace Davis, I'm the Director of Engineering here at Rivet Digital."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Brown",
+          "text": "We're moving forward with you on this."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Brown",
+          "text": "There are a couple of contract terms we still need to align on."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Let's schedule a security review call."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Brown",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Leo Brown",
+            "role": "Director of Operations",
+            "email": null
+          },
+          {
+            "name": "Grace Davis",
+            "role": "Director of Engineering",
+            "email": null
+          }
+        ],
+        "dealStage": null,
+        "actionItems": [
+          {
+            "text": "a security review call",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Rivet Digital"
+      }
+    },
+    {
+      "id": "meeting-004",
+      "date": "2026-02-26",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Martinez",
+          "text": "This is Priya Martinez, I'm the Chief Revenue Officer here at Birchwood Logistics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Martinez",
+          "text": "You can reach me at priya.martinez@birchwoodlogistics.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Wilson",
+          "text": "This is Nina Wilson, I'm the Director of Operations here at Birchwood Logistics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Elena Lee",
+          "text": "This is Elena Lee, I'm the Director of IT here at Birchwood Logistics."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Martinez",
+          "text": "Let's schedule a demo for next week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Let's schedule time with our procurement team within 48 hours."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Nina Wilson will send over the pricing sheet."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Martinez",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Priya Martinez",
+            "role": "Chief Revenue Officer",
+            "email": "priya.martinez@birchwoodlogistics.com"
+          },
+          {
+            "name": "Nina Wilson",
+            "role": "Director of Operations",
+            "email": null
+          },
+          {
+            "name": "Elena Lee",
+            "role": "Director of IT",
+            "email": null
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "time with our procurement team",
+            "owner": null,
+            "dueHint": "within 48 hours"
+          },
+          {
+            "text": "send over the pricing sheet",
+            "owner": "Nina Wilson",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Birchwood Logistics"
+      }
+    },
+    {
+      "id": "meeting-005",
+      "date": "2026-01-23",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Johnson",
+          "text": "This is Sophia Johnson, I'm the VP of Product here at Palisade Analytics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Nguyen",
+          "text": "This is Tom Nguyen, I'm the Chief Technology Officer here at Palisade Analytics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Nguyen",
+          "text": "You can reach me at tom.nguyen@palisadeanalytics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Johnson",
+          "text": "This might not end up being the right timing for us."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Tom Nguyen will circle back with the finance team by the end of the month."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Johnson",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Sophia Johnson",
+            "role": "VP of Product",
+            "email": null
+          },
+          {
+            "name": "Tom Nguyen",
+            "role": "Chief Technology Officer",
+            "email": "tom.nguyen@palisadeanalytics.com"
+          }
+        ],
+        "dealStage": "closed-lost",
+        "actionItems": [
+          {
+            "text": "circle back with the finance team",
+            "owner": "Tom Nguyen",
+            "dueHint": "by the end of the month"
+          }
+        ],
+        "companyMentioned": "Palisade Analytics"
+      }
+    },
+    {
+      "id": "meeting-006",
+      "date": "2026-02-13",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Patel",
+          "text": "This is Tom Patel, I'm the Chief Technology Officer here at Brightline Digital."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Patel",
+          "text": "You can reach me at tom.patel@brightlinedigital.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Patel",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Tom Patel will send over the pricing sheet by the end of the month."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "I'll share the case study by Friday."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Tom Patel will follow up with procurement next Tuesday."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Patel",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Tom Patel",
+            "role": "Chief Technology Officer",
+            "email": "tom.patel@brightlinedigital.com"
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "send over the pricing sheet",
+            "owner": "Tom Patel",
+            "dueHint": "by the end of the month"
+          },
+          {
+            "text": "share the case study",
+            "owner": "Alex",
+            "dueHint": "by Friday"
+          },
+          {
+            "text": "follow up with procurement",
+            "owner": "Tom Patel",
+            "dueHint": "next Tuesday"
+          }
+        ],
+        "companyMentioned": "Brightline Digital"
+      }
+    },
+    {
+      "id": "meeting-007",
+      "date": "2026-03-02",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Lopez",
+          "text": "This is Sophia Lopez, I'm the Director of Operations here at Brightline Dynamics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Nguyen",
+          "text": "This is Carlos Nguyen, I'm the VP of Product here at Brightline Dynamics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Nguyen",
+          "text": "You can reach me at carlos.nguyen@brightlinedynamics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Lopez",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Let's schedule the technical deep dive early next week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Let's schedule a security review call early next week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Lopez",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Sophia Lopez",
+            "role": "Director of Operations",
+            "email": null
+          },
+          {
+            "name": "Carlos Nguyen",
+            "role": "VP of Product",
+            "email": "carlos.nguyen@brightlinedynamics.com"
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [
+          {
+            "text": "the technical deep dive",
+            "owner": null,
+            "dueHint": "early next week"
+          },
+          {
+            "text": "a security review call",
+            "owner": null,
+            "dueHint": "early next week"
+          }
+        ],
+        "companyMentioned": "Brightline Dynamics"
+      }
+    },
+    {
+      "id": "meeting-008",
+      "date": "2026-03-01",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen King",
+          "text": "This is Owen King, I'm the Director of Operations here at Kestrel Labs."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen King",
+          "text": "You can reach me at owen.king@kestrellabs.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Lee",
+          "text": "This is David Lee, I'm the VP of Sales here at Kestrel Labs."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Lee",
+          "text": "You can reach me at david.lee@kestrellabs.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen King",
+          "text": "We'll need some numbers from you before we can make a call."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen King",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Owen King",
+            "role": "Director of Operations",
+            "email": "owen.king@kestrellabs.com"
+          },
+          {
+            "name": "David Lee",
+            "role": "VP of Sales",
+            "email": "david.lee@kestrellabs.com"
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [],
+        "companyMentioned": "Kestrel Labs"
+      }
+    },
+    {
+      "id": "meeting-009",
+      "date": "2026-02-26",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "We've also got someone from your security team joining today, just to listen in."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam",
+          "text": "Could you send over pricing so we can evaluate?"
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "I'll set up the technical deep dive."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Marcus King",
+            "role": "Director of Engineering",
+            "email": null
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [
+          {
+            "text": "set up the technical deep dive",
+            "owner": "Sam",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Loom Digital"
+      }
+    },
+    {
+      "id": "meeting-010",
+      "date": "2026-02-06",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Johnson",
+          "text": "This is Grace Johnson, I'm the VP of Product here at Onyx Software."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Johnson",
+          "text": "You can reach me at grace.johnson@onyxsoftware.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Walker",
+          "text": "This is Nina Walker, I'm the Director of Engineering here at Onyx Software."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Walker",
+          "text": "You can reach me at nina.walker@onyxsoftware.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Johnson",
+          "text": "We've decided we're going with someone else."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Johnson",
+          "text": "I'd love to walk you through the product live."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Grace Johnson will send the contract for review within 48 hours."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "I'll set up the technical deep dive by the end of the month."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Johnson",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Grace Johnson",
+            "role": "VP of Product",
+            "email": "grace.johnson@onyxsoftware.com"
+          },
+          {
+            "name": "Nina Walker",
+            "role": "Director of Engineering",
+            "email": "nina.walker@onyxsoftware.com"
+          }
+        ],
+        "dealStage": null,
+        "actionItems": [
+          {
+            "text": "send the contract for review",
+            "owner": "Grace Johnson",
+            "dueHint": "within 48 hours"
+          },
+          {
+            "text": "set up the technical deep dive",
+            "owner": "Sam",
+            "dueHint": "by the end of the month"
+          }
+        ],
+        "companyMentioned": "Onyx Software"
+      }
+    },
+    {
+      "id": "meeting-011",
+      "date": "2026-02-13",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Brown",
+          "text": "This is Grace Brown, I'm the Director of Operations here at Umbra Works."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Brown",
+          "text": "You can reach me at grace.brown@umbraworks.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Wilson",
+          "text": "This is Owen Wilson, I'm the Head of Customer Success here at Umbra Works."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Brown",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Grace Brown will loop in the security team within 48 hours."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Let's schedule time with our procurement team early next week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Brown",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Grace Brown",
+            "role": "Director of Operations",
+            "email": "grace.brown@umbraworks.com"
+          },
+          {
+            "name": "Owen Wilson",
+            "role": "Head of Customer Success",
+            "email": null
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "loop in the security team",
+            "owner": "Grace Brown",
+            "dueHint": "within 48 hours"
+          },
+          {
+            "text": "time with our procurement team",
+            "owner": null,
+            "dueHint": "early next week"
+          }
+        ],
+        "companyMentioned": "Umbra Works"
+      }
+    },
+    {
+      "id": "meeting-012",
+      "date": "2026-01-23",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Smith",
+          "text": "This is Zoe Smith, I'm the Director of IT here at Sable Networks."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Smith",
+          "text": "Let's schedule a demo for next week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Zoe Smith will circle back with the finance team by Friday."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Someone should probably send the contract for review at some point."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Smith",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Zoe Smith",
+            "role": "Director of IT",
+            "email": null
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "circle back with the finance team",
+            "owner": "Zoe Smith",
+            "dueHint": "by Friday"
+          },
+          {
+            "text": "send the contract for review",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Sable Networks"
+      }
+    },
+    {
+      "id": "meeting-013",
+      "date": "2026-01-19",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Wright",
+          "text": "This is Marcus Wright, I'm the Director of IT here at Palisade Cloud."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Lee",
+          "text": "This is Zoe Lee, I'm the Head of Marketing here at Palisade Cloud."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Lee",
+          "text": "You can reach me at zoe.lee@palisadecloud.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Wright",
+          "text": "Let's schedule a demo for next week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Let's schedule a kickoff call by Monday."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "I'll share the case study."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Wright",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Marcus Wright",
+            "role": "Director of IT",
+            "email": null
+          },
+          {
+            "name": "Zoe Lee",
+            "role": "Head of Marketing",
+            "email": "zoe.lee@palisadecloud.com"
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "a kickoff call",
+            "owner": null,
+            "dueHint": "by Monday"
+          },
+          {
+            "text": "share the case study",
+            "owner": "Morgan",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Palisade Cloud"
+      }
+    },
+    {
+      "id": "meeting-014",
+      "date": "2026-03-06",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Garcia",
+          "text": "This is Priya Garcia, I'm the Chief Revenue Officer here at Birchwood AI."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Garcia",
+          "text": "We're currently in legal review on the contract."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Garcia",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "I'll send the contract for review by end of week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "I'll set up the technical deep dive within 48 hours."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Garcia",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Priya Garcia",
+            "role": "Chief Revenue Officer",
+            "email": null
+          }
+        ],
+        "dealStage": null,
+        "actionItems": [
+          {
+            "text": "send the contract for review",
+            "owner": "Sam",
+            "dueHint": "by end of week"
+          },
+          {
+            "text": "set up the technical deep dive",
+            "owner": "Sam",
+            "dueHint": "within 48 hours"
+          }
+        ],
+        "companyMentioned": "Birchwood AI"
+      }
+    },
+    {
+      "id": "meeting-015",
+      "date": "2026-02-05",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Davis",
+          "text": "This is Leo Davis, I'm the Director of Engineering here at Cobalt Robotics."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Davis",
+          "text": "Could you send over pricing so we can evaluate?"
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Let's schedule a kickoff call by Friday."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Let's schedule a kickoff call."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Someone should probably loop in the security team at some point."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Davis",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Leo Davis",
+            "role": "Director of Engineering",
+            "email": null
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [
+          {
+            "text": "a kickoff call",
+            "owner": null,
+            "dueHint": "by Friday"
+          },
+          {
+            "text": "a kickoff call",
+            "owner": null,
+            "dueHint": null
+          },
+          {
+            "text": "loop in the security team",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Cobalt Robotics"
+      }
+    },
+    {
+      "id": "meeting-016",
+      "date": "2026-01-24",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Brown",
+          "text": "This is Carlos Brown, I'm the VP of Engineering here at Onyx Analytics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Wilson",
+          "text": "This is Tom Wilson, I'm the Director of IT here at Onyx Analytics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Wilson",
+          "text": "You can reach me at tom.wilson@onyxanalytics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Brown",
+          "text": "I'd love to walk you through the product live."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "I'll schedule the follow-up call by end of week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Carlos Brown will loop in the security team."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Tom Wilson will loop in the security team by end of week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Brown",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Carlos Brown",
+            "role": "VP of Engineering",
+            "email": null
+          },
+          {
+            "name": "Tom Wilson",
+            "role": "Director of IT",
+            "email": "tom.wilson@onyxanalytics.com"
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "schedule the follow-up call",
+            "owner": "Sam",
+            "dueHint": "by end of week"
+          },
+          {
+            "text": "loop in the security team",
+            "owner": "Carlos Brown",
+            "dueHint": null
+          },
+          {
+            "text": "loop in the security team",
+            "owner": "Tom Wilson",
+            "dueHint": "by end of week"
+          }
+        ],
+        "companyMentioned": "Onyx Analytics"
+      }
+    },
+    {
+      "id": "meeting-017",
+      "date": "2026-03-08",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "We've also got someone from your security team joining today, just to listen in."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Casey",
+          "text": "There are a couple of contract terms we still need to align on."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "I'll circle back with the finance team next Tuesday."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Casey",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Ben Clark",
+            "role": "Head of Marketing",
+            "email": "ben.clark@umbradigital.com"
+          }
+        ],
+        "dealStage": "negotiation",
+        "actionItems": [
+          {
+            "text": "circle back with the finance team",
+            "owner": "Casey",
+            "dueHint": "next Tuesday"
+          }
+        ],
+        "companyMentioned": "Umbra Digital"
+      }
+    },
+    {
+      "id": "meeting-018",
+      "date": "2026-01-08",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Scott",
+          "text": "This is Nina Scott, I'm the Director of IT here at Brightline Industries."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Martinez",
+          "text": "This is Tom Martinez, I'm the Head of Marketing here at Brightline Industries."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom Martinez",
+          "text": "You can reach me at tom.martinez@brightlineindustries.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Scott",
+          "text": "We've decided we're going with someone else."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Let's schedule a security review call by the end of the month."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Scott",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Nina Scott",
+            "role": "Director of IT",
+            "email": null
+          },
+          {
+            "name": "Tom Martinez",
+            "role": "Head of Marketing",
+            "email": "tom.martinez@brightlineindustries.com"
+          }
+        ],
+        "dealStage": "closed-lost",
+        "actionItems": [
+          {
+            "text": "a security review call",
+            "owner": null,
+            "dueHint": "by the end of the month"
+          }
+        ],
+        "companyMentioned": "Brightline Industries"
+      }
+    },
+    {
+      "id": "meeting-019",
+      "date": "2026-02-06",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Clark",
+          "text": "This is Marcus Clark, I'm the VP of Engineering here at Kestrel Logistics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Clark",
+          "text": "You can reach me at marcus.clark@kestrellogistics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Clark",
+          "text": "Let's schedule a demo for next week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "I'll circle back with the finance team next Tuesday."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Clark",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Marcus Clark",
+            "role": "VP of Engineering",
+            "email": "marcus.clark@kestrellogistics.com"
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "circle back with the finance team",
+            "owner": "Alex",
+            "dueHint": "next Tuesday"
+          }
+        ],
+        "companyMentioned": "Kestrel Logistics"
+      }
+    },
+    {
+      "id": "meeting-020",
+      "date": "2026-02-05",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Kim",
+          "text": "This is Jordan Kim, I'm the VP of Engineering here at Cobalt AI."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Kim",
+          "text": "You can reach me at jordan.kim@cobaltai.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Kim",
+          "text": "We've decided we're going with someone else."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Kim",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Jordan Kim",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Jordan Kim",
+            "role": "VP of Engineering",
+            "email": "jordan.kim@cobaltai.com"
+          }
+        ],
+        "dealStage": null,
+        "actionItems": [],
+        "companyMentioned": "Cobalt AI"
+      }
+    },
+    {
+      "id": "meeting-021",
+      "date": "2026-02-05",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Garcia",
+          "text": "This is Zoe Garcia, I'm the Director of IT here at Sable Cloud."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Garcia",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Zoe Garcia will share the case study next Tuesday."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Garcia",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Zoe Garcia",
+            "role": "Director of IT",
+            "email": null
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [
+          {
+            "text": "share the case study",
+            "owner": "Zoe Garcia",
+            "dueHint": "next Tuesday"
+          }
+        ],
+        "companyMentioned": "Sable Cloud"
+      }
+    },
+    {
+      "id": "meeting-022",
+      "date": "2026-01-23",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Elena Lopez",
+          "text": "This is Elena Lopez, I'm the VP of Engineering here at Sable Health."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Elena Lopez",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Let's schedule a kickoff call."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Elena Lopez",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Elena Lopez",
+            "role": "VP of Engineering",
+            "email": null
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [
+          {
+            "text": "a kickoff call",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Sable Health"
+      }
+    },
+    {
+      "id": "meeting-023",
+      "date": "2026-02-17",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Young",
+          "text": "This is Carlos Young, I'm the Head of Marketing here at Brightline Networks."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Young",
+          "text": "You can reach me at carlos.young@brightlinenetworks.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Smith",
+          "text": "This is Priya Smith, I'm the VP of Sales here at Brightline Networks."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Smith",
+          "text": "You can reach me at priya.smith@brightlinenetworks.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Young",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Let's schedule a security review call by the end of the month."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Priya Smith will share the case study early next week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos Young",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Carlos Young",
+            "role": "Head of Marketing",
+            "email": "carlos.young@brightlinenetworks.com"
+          },
+          {
+            "name": "Priya Smith",
+            "role": "VP of Sales",
+            "email": "priya.smith@brightlinenetworks.com"
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "a security review call",
+            "owner": null,
+            "dueHint": "by the end of the month"
+          },
+          {
+            "text": "share the case study",
+            "owner": "Priya Smith",
+            "dueHint": "early next week"
+          }
+        ],
+        "companyMentioned": "Brightline Networks"
+      }
+    },
+    {
+      "id": "meeting-024",
+      "date": "2026-02-06",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Lopez",
+          "text": "This is Zoe Lopez, I'm the Director of IT here at Loom Robotics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Davis",
+          "text": "This is Priya Davis, I'm the Director of IT here at Loom Robotics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Davis",
+          "text": "You can reach me at priya.davis@loomrobotics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Lopez",
+          "text": "We're moving forward with you on this."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Lopez",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Zoe Lopez",
+            "role": "Director of IT",
+            "email": null
+          },
+          {
+            "name": "Priya Davis",
+            "role": "Director of IT",
+            "email": "priya.davis@loomrobotics.com"
+          }
+        ],
+        "dealStage": "closed-won",
+        "actionItems": [],
+        "companyMentioned": "Loom Robotics"
+      }
+    },
+    {
+      "id": "meeting-025",
+      "date": "2026-01-15",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Lopez",
+          "text": "This is Owen Lopez, I'm the Head of Marketing here at Fern Analytics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Lopez",
+          "text": "You can reach me at owen.lopez@fernanalytics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Lopez",
+          "text": "This might not end up being the right timing for us."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Owen Lopez will schedule the follow-up call."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Lopez",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Owen Lopez",
+            "role": "Head of Marketing",
+            "email": "owen.lopez@fernanalytics.com"
+          }
+        ],
+        "dealStage": "closed-lost",
+        "actionItems": [
+          {
+            "text": "schedule the follow-up call",
+            "owner": "Owen Lopez",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Fern Analytics"
+      }
+    },
+    {
+      "id": "meeting-026",
+      "date": "2026-01-09",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ben Scott",
+          "text": "This is Ben Scott, I'm the Director of IT here at Rivet AI."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ben Scott",
+          "text": "This might not end up being the right timing for us."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Let's schedule the technical deep dive by the end of the month."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ben Scott",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Ben Scott",
+            "role": "Director of IT",
+            "email": null
+          }
+        ],
+        "dealStage": "closed-lost",
+        "actionItems": [
+          {
+            "text": "the technical deep dive",
+            "owner": null,
+            "dueHint": "by the end of the month"
+          }
+        ],
+        "companyMentioned": "Rivet AI"
+      }
+    },
+    {
+      "id": "meeting-027",
+      "date": "2026-02-23",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Hill",
+          "text": "This is Marcus Hill, I'm the VP of Sales here at Palisade Works."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Hill",
+          "text": "I'd love to walk you through the product live."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "I'll share the case study by Friday."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Marcus Hill",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Marcus Hill",
+            "role": "VP of Sales",
+            "email": null
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "share the case study",
+            "owner": "Sam",
+            "dueHint": "by Friday"
+          }
+        ],
+        "companyMentioned": "Palisade Works"
+      }
+    },
+    {
+      "id": "meeting-028",
+      "date": "2026-03-13",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Lee",
+          "text": "This is Ravi Lee, I'm the Chief Technology Officer here at Quill Logistics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Lee",
+          "text": "You can reach me at ravi.lee@quilllogistics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Lee",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Lee",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Ravi Lee",
+            "role": "Chief Technology Officer",
+            "email": "ravi.lee@quilllogistics.com"
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [],
+        "companyMentioned": "Quill Logistics"
+      }
+    },
+    {
+      "id": "meeting-029",
+      "date": "2026-01-25",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina King",
+          "text": "This is Nina King, I'm the Director of Engineering here at Umbra Logistics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina King",
+          "text": "You can reach me at nina.king@umbralogistics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina King",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Someone should probably send over the pricing sheet at some point."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina King",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Nina King",
+            "role": "Director of Engineering",
+            "email": "nina.king@umbralogistics.com"
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "send over the pricing sheet",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Umbra Logistics"
+      }
+    },
+    {
+      "id": "meeting-030",
+      "date": "2026-02-16",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Taylor",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Hill",
+          "text": "This is Nina Hill, I'm the Head of Customer Success here at Maple Data."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Hill",
+          "text": "You can reach me at nina.hill@mapledata.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Patel",
+          "text": "This is Aisha Patel, I'm the Director of Engineering here at Maple Data."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Patel",
+          "text": "You can reach me at aisha.patel@mapledata.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Rachel Smith",
+          "text": "This is Rachel Smith, I'm the Chief Revenue Officer here at Maple Data."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Rachel Smith",
+          "text": "You can reach me at rachel.smith@mapledata.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Taylor",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Hill",
+          "text": "I'd love to walk you through the product live."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Hill",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Nina Hill",
+            "role": "Head of Customer Success",
+            "email": "nina.hill@mapledata.com"
+          },
+          {
+            "name": "Aisha Patel",
+            "role": "Director of Engineering",
+            "email": "aisha.patel@mapledata.com"
+          },
+          {
+            "name": "Rachel Smith",
+            "role": "Chief Revenue Officer",
+            "email": "rachel.smith@mapledata.com"
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [],
+        "companyMentioned": "Maple Data"
+      }
+    },
+    {
+      "id": "meeting-031",
+      "date": "2026-01-08",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Elena Clark",
+          "text": "This is Elena Clark, I'm the Chief Revenue Officer here at Wayfarer Digital."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Elena Clark",
+          "text": "I'd love to walk you through the product live."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "I'll share the case study next Tuesday."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Elena Clark",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Elena Clark",
+            "role": "Chief Revenue Officer",
+            "email": null
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "share the case study",
+            "owner": "Sam",
+            "dueHint": "next Tuesday"
+          }
+        ],
+        "companyMentioned": "Wayfarer Digital"
+      }
+    },
+    {
+      "id": "meeting-032",
+      "date": "2026-02-08",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Davis",
+          "text": "This is Sophia Davis, I'm the VP of Product here at Yarrow Systems."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Davis",
+          "text": "Unfortunately this is not a fit for us."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "I'll share the case study by end of week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "I'll circle back with the finance team by Friday."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Davis",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Sophia Davis",
+            "role": "VP of Product",
+            "email": null
+          }
+        ],
+        "dealStage": "closed-lost",
+        "actionItems": [
+          {
+            "text": "share the case study",
+            "owner": "Morgan",
+            "dueHint": "by end of week"
+          },
+          {
+            "text": "circle back with the finance team",
+            "owner": "Morgan",
+            "dueHint": "by Friday"
+          }
+        ],
+        "companyMentioned": "Yarrow Systems"
+      }
+    },
+    {
+      "id": "meeting-033",
+      "date": "2026-01-19",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Brown",
+          "text": "This is Ravi Brown, I'm the Chief Technology Officer here at Talon Financial."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Brown",
+          "text": "You can reach me at ravi.brown@talonfinancial.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Brown",
+          "text": "Let's schedule a demo for next week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Ravi Brown will follow up with procurement."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Brown",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Ravi Brown",
+            "role": "Chief Technology Officer",
+            "email": "ravi.brown@talonfinancial.com"
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "follow up with procurement",
+            "owner": "Ravi Brown",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Talon Financial"
+      }
+    },
+    {
+      "id": "meeting-034",
+      "date": "2026-02-21",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Young",
+          "text": "This is Ravi Young, I'm the VP of Engineering here at Umbra Cloud."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ben Lopez",
+          "text": "This is Ben Lopez, I'm the VP of Product here at Umbra Cloud."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ben Lopez",
+          "text": "You can reach me at ben.lopez@umbracloud.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Young",
+          "text": "Let's schedule a demo for next week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Ben Lopez will send the contract for review early next week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Let's schedule the technical deep dive within 48 hours."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Let's schedule time with our procurement team by the end of the month."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ravi Young",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Ravi Young",
+            "role": "VP of Engineering",
+            "email": null
+          },
+          {
+            "name": "Ben Lopez",
+            "role": "VP of Product",
+            "email": "ben.lopez@umbracloud.com"
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "send the contract for review",
+            "owner": "Ben Lopez",
+            "dueHint": "early next week"
+          },
+          {
+            "text": "the technical deep dive",
+            "owner": null,
+            "dueHint": "within 48 hours"
+          },
+          {
+            "text": "time with our procurement team",
+            "owner": null,
+            "dueHint": "by the end of the month"
+          }
+        ],
+        "companyMentioned": "Umbra Cloud"
+      }
+    },
+    {
+      "id": "meeting-035",
+      "date": "2026-02-01",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Martinez",
+          "text": "This is Grace Martinez, I'm the Director of Operations here at Brightline Labs."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Martinez",
+          "text": "You can reach me at grace.martinez@brightlinelabs.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Martinez",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Martinez",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Grace Martinez",
+            "role": "Director of Operations",
+            "email": "grace.martinez@brightlinelabs.com"
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [],
+        "companyMentioned": "Brightline Labs"
+      }
+    },
+    {
+      "id": "meeting-036",
+      "date": "2026-02-14",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Maya Clark",
+          "text": "This is Maya Clark, I'm the Head of Customer Success here at Kestrel Health."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Maya Clark",
+          "text": "Let's schedule a demo for next week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Maya Clark",
+          "text": "Could you send over pricing so we can evaluate?"
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "I'll schedule the follow-up call early next week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Maya Clark",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Maya Clark",
+            "role": "Head of Customer Success",
+            "email": null
+          }
+        ],
+        "dealStage": null,
+        "actionItems": [
+          {
+            "text": "schedule the follow-up call",
+            "owner": "Jordan",
+            "dueHint": "early next week"
+          }
+        ],
+        "companyMentioned": "Kestrel Health"
+      }
+    },
+    {
+      "id": "meeting-037",
+      "date": "2026-03-06",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Patel",
+          "text": "This is Sam Patel, I'm the Chief Technology Officer here at Kestrel Partners."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Patel",
+          "text": "You can reach me at sam.patel@kestrelpartners.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Priya Brown",
+          "text": "This is Priya Brown, I'm the Head of Customer Success here at Kestrel Partners."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Patel",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Someone should probably schedule the follow-up call at some point."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Patel",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Sam Patel",
+            "role": "Chief Technology Officer",
+            "email": "sam.patel@kestrelpartners.com"
+          },
+          {
+            "name": "Priya Brown",
+            "role": "Head of Customer Success",
+            "email": null
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "schedule the follow-up call",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Kestrel Partners"
+      }
+    },
+    {
+      "id": "meeting-038",
+      "date": "2026-02-24",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom King",
+          "text": "This is Tom King, I'm the Chief Technology Officer here at Birchwood Dynamics."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom King",
+          "text": "There are a couple of contract terms we still need to align on."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "I'll schedule the follow-up call by Friday."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Someone should probably set up the technical deep dive at some point."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Tom King",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Tom King",
+            "role": "Chief Technology Officer",
+            "email": null
+          }
+        ],
+        "dealStage": "negotiation",
+        "actionItems": [
+          {
+            "text": "schedule the follow-up call",
+            "owner": "Casey",
+            "dueHint": "by Friday"
+          },
+          {
+            "text": "set up the technical deep dive",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Birchwood Dynamics"
+      }
+    },
+    {
+      "id": "meeting-039",
+      "date": "2026-01-20",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Hill",
+          "text": "This is Grace Hill, I'm the Director of Operations here at Talon Health."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Hill",
+          "text": "You can reach me at grace.hill@talonhealth.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Lee",
+          "text": "This is Leo Lee, I'm the VP of Sales here at Talon Health."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Leo Lee",
+          "text": "You can reach me at leo.lee@talonhealth.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Clark",
+          "text": "This is Sam Clark, I'm the Director of Engineering here at Talon Health."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Hill",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Someone should probably loop in the security team at some point."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Hill",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Grace Hill",
+            "role": "Director of Operations",
+            "email": "grace.hill@talonhealth.com"
+          },
+          {
+            "name": "Leo Lee",
+            "role": "VP of Sales",
+            "email": "leo.lee@talonhealth.com"
+          },
+          {
+            "name": "Sam Clark",
+            "role": "Director of Engineering",
+            "email": null
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "loop in the security team",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Talon Health"
+      }
+    },
+    {
+      "id": "meeting-040",
+      "date": "2026-01-09",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Kim",
+          "text": "This is David Kim, I'm the Chief Revenue Officer here at Talon Dynamics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ben Smith",
+          "text": "This is Ben Smith, I'm the Head of Customer Success here at Talon Dynamics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ben Smith",
+          "text": "You can reach me at ben.smith@talondynamics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Kim",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Ben Smith will loop in the security team early next week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Kim",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "David Kim",
+            "role": "Chief Revenue Officer",
+            "email": null
+          },
+          {
+            "name": "Ben Smith",
+            "role": "Head of Customer Success",
+            "email": "ben.smith@talondynamics.com"
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [
+          {
+            "text": "loop in the security team",
+            "owner": "Ben Smith",
+            "dueHint": "early next week"
+          }
+        ],
+        "companyMentioned": "Talon Dynamics"
+      }
+    },
+    {
+      "id": "meeting-041",
+      "date": "2026-02-09",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Young",
+          "text": "This is Sophia Young, I'm the Head of Customer Success here at Rivet Labs."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Young",
+          "text": "You can reach me at sophia.young@rivetlabs.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Young",
+          "text": "We're ready to sign the contract today."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Young",
+          "text": "We're currently in legal review on the contract."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Sophia Young will send over the pricing sheet by Friday."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Morgan",
+          "text": "Let's schedule a kickoff call."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sophia Young",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Sophia Young",
+            "role": "Head of Customer Success",
+            "email": "sophia.young@rivetlabs.com"
+          }
+        ],
+        "dealStage": null,
+        "actionItems": [
+          {
+            "text": "send over the pricing sheet",
+            "owner": "Sophia Young",
+            "dueHint": "by Friday"
+          },
+          {
+            "text": "a kickoff call",
+            "owner": null,
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Rivet Labs"
+      }
+    },
+    {
+      "id": "meeting-042",
+      "date": "2026-01-23",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Wilson",
+          "text": "This is Sam Wilson, I'm the Director of Operations here."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Wilson",
+          "text": "You can reach me at sam.wilson@maplelabs.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha King",
+          "text": "This is Aisha King, I'm the Director of Engineering here."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha King",
+          "text": "You can reach me at aisha.king@maplelabs.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Wilson",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "I'll send over the pricing sheet by end of week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Wilson",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Sam Wilson",
+            "role": "Director of Operations",
+            "email": "sam.wilson@maplelabs.com"
+          },
+          {
+            "name": "Aisha King",
+            "role": "Director of Engineering",
+            "email": "aisha.king@maplelabs.com"
+          }
+        ],
+        "dealStage": "proposal",
+        "actionItems": [
+          {
+            "text": "send over the pricing sheet",
+            "owner": "Jordan",
+            "dueHint": "by end of week"
+          }
+        ],
+        "companyMentioned": "Maple Labs"
+      }
+    },
+    {
+      "id": "meeting-043",
+      "date": "2026-01-17",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Maya Wilson",
+          "text": "This is Maya Wilson, I'm the Chief Revenue Officer here at Amber Labs."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Maya Wilson",
+          "text": "You can reach me at maya.wilson@amberlabs.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "We've also got someone from your security team joining today, just to listen in."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Maya Wilson",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "I'll share the case study by the end of the month."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Let's schedule a security review call next Tuesday."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Let's schedule time with our procurement team by Friday."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Maya Wilson",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Maya Wilson",
+            "role": "Chief Revenue Officer",
+            "email": "maya.wilson@amberlabs.com"
+          },
+          {
+            "name": "Zoe Young",
+            "role": "Director of Engineering",
+            "email": null
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "share the case study",
+            "owner": "Jordan",
+            "dueHint": "by the end of the month"
+          },
+          {
+            "text": "a security review call",
+            "owner": null,
+            "dueHint": "next Tuesday"
+          },
+          {
+            "text": "time with our procurement team",
+            "owner": null,
+            "dueHint": "by Friday"
+          }
+        ],
+        "companyMentioned": "Amber Labs"
+      }
+    },
+    {
+      "id": "meeting-044",
+      "date": "2026-02-02",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Clark",
+          "text": "This is Aisha Clark, I'm the VP of Sales here at Cinder Systems."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Clark",
+          "text": "You can reach me at aisha.clark@cindersystems.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Martinez",
+          "text": "This is Aisha Martinez, I'm the Director of IT here at Cinder Systems."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Martinez",
+          "text": "You can reach me at aisha.martinez@cindersystems.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Clark",
+          "text": "Let's get started, we're all in."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Aisha Clark will send over the pricing sheet by end of week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Clark",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Aisha Clark",
+            "role": "VP of Sales",
+            "email": "aisha.clark@cindersystems.com"
+          },
+          {
+            "name": "Aisha Martinez",
+            "role": "Director of IT",
+            "email": "aisha.martinez@cindersystems.com"
+          }
+        ],
+        "dealStage": "closed-won",
+        "actionItems": [
+          {
+            "text": "send over the pricing sheet",
+            "owner": "Aisha Clark",
+            "dueHint": "by end of week"
+          }
+        ],
+        "companyMentioned": "Cinder Systems"
+      }
+    },
+    {
+      "id": "meeting-045",
+      "date": "2026-01-15",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Davis",
+          "text": "This is Owen Davis, I'm the Director of Operations here at Palisade Data."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Nina Lopez",
+          "text": "This is Nina Lopez, I'm the VP of Engineering here at Palisade Data."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Casey",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Davis",
+          "text": "We're currently in legal review on the contract."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Davis",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Owen Davis",
+            "role": "Director of Operations",
+            "email": null
+          },
+          {
+            "name": "Nina Lopez",
+            "role": "VP of Engineering",
+            "email": null
+          }
+        ],
+        "dealStage": "negotiation",
+        "actionItems": [],
+        "companyMentioned": "Palisade Data"
+      }
+    },
+    {
+      "id": "meeting-046",
+      "date": "2026-01-09",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Nguyen",
+          "text": "This is Owen Nguyen, I'm the Head of Customer Success here at Amber Software."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Sam Scott",
+          "text": "This is Sam Scott, I'm the Director of Engineering here at Amber Software."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Sam",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Nguyen",
+          "text": "There's still some internal back-and-forth before we can commit."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Owen Nguyen",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Owen Nguyen",
+            "role": "Head of Customer Success",
+            "email": null
+          },
+          {
+            "name": "Sam Scott",
+            "role": "Director of Engineering",
+            "email": null
+          }
+        ],
+        "dealStage": "negotiation",
+        "actionItems": [],
+        "companyMentioned": "Amber Software"
+      }
+    },
+    {
+      "id": "meeting-047",
+      "date": "2026-01-22",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Lopez",
+          "text": "This is Aisha Lopez, I'm the Head of Marketing here at Sable Dynamics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Lopez",
+          "text": "You can reach me at aisha.lopez@sabledynamics.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos King",
+          "text": "This is Carlos King, I'm the Director of Operations here at Sable Dynamics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Carlos King",
+          "text": "You can reach me at carlos.king@sabledynamics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "What does your evaluation process typically look like?"
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Lopez",
+          "text": "I'd love to walk you through the product live."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Let's schedule a kickoff call by end of week."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Let's schedule a kickoff call."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Carlos King will loop in the security team early next week."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Lopez",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Aisha Lopez",
+            "role": "Head of Marketing",
+            "email": "aisha.lopez@sabledynamics.com"
+          },
+          {
+            "name": "Carlos King",
+            "role": "Director of Operations",
+            "email": "carlos.king@sabledynamics.com"
+          }
+        ],
+        "dealStage": "demo",
+        "actionItems": [
+          {
+            "text": "a kickoff call",
+            "owner": null,
+            "dueHint": "by end of week"
+          },
+          {
+            "text": "a kickoff call",
+            "owner": null,
+            "dueHint": null
+          },
+          {
+            "text": "loop in the security team",
+            "owner": "Carlos King",
+            "dueHint": "early next week"
+          }
+        ],
+        "companyMentioned": "Sable Dynamics"
+      }
+    },
+    {
+      "id": "meeting-048",
+      "date": "2026-02-12",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Taylor",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Brown",
+          "text": "This is David Brown, I'm the VP of Product here at Palisade Robotics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Brown",
+          "text": "You can reach me at david.brown@palisaderobotics.com."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Patel",
+          "text": "This is Zoe Patel, I'm the VP of Product here at Palisade Robotics."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Zoe Patel",
+          "text": "You can reach me at zoe.patel@palisaderobotics.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Taylor",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Brown",
+          "text": "Unfortunately this is not a fit for us."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Taylor",
+          "text": "I'll loop in the security team."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "David Brown",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "David Brown",
+            "role": "VP of Product",
+            "email": "david.brown@palisaderobotics.com"
+          },
+          {
+            "name": "Zoe Patel",
+            "role": "VP of Product",
+            "email": "zoe.patel@palisaderobotics.com"
+          }
+        ],
+        "dealStage": "closed-lost",
+        "actionItems": [
+          {
+            "text": "loop in the security team",
+            "owner": "Taylor",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Palisade Robotics"
+      }
+    },
+    {
+      "id": "meeting-049",
+      "date": "2026-02-27",
+      "ambiguityProfile": "ambiguous",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ethan Lopez",
+          "text": "This is Ethan Lopez, I'm the Chief Technology Officer here at Harbor Digital."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ethan Lopez",
+          "text": "You can reach me at ethan.lopez@harbordigital.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ethan Lopez",
+          "text": "We're ready to review the proposal in detail."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ethan Lopez",
+          "text": "We're ready to sign the contract today."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "I'll send over the pricing sheet by the end of the month."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Jordan",
+          "text": "Ethan Lopez will loop in the security team."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Ethan Lopez",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Ethan Lopez",
+            "role": "Chief Technology Officer",
+            "email": "ethan.lopez@harbordigital.com"
+          }
+        ],
+        "dealStage": null,
+        "actionItems": [
+          {
+            "text": "send over the pricing sheet",
+            "owner": "Jordan",
+            "dueHint": "by the end of the month"
+          },
+          {
+            "text": "loop in the security team",
+            "owner": "Ethan Lopez",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Harbor Digital"
+      }
+    },
+    {
+      "id": "meeting-050",
+      "date": "2026-02-03",
+      "ambiguityProfile": "clean",
+      "transcript": [
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Thanks for hopping on the call today, glad we could find the time."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Walker",
+          "text": "This is Grace Walker, I'm the Director of Operations here at Palisade Group."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Wright",
+          "text": "This is Aisha Wright, I'm the VP of Product here at Palisade Group."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Aisha Wright",
+          "text": "You can reach me at aisha.wright@palisadegroup.com."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Tell me more about your current workflow and where the friction is."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Walker",
+          "text": "We're still early, just exploring options right now."
+        },
+        {
+          "speaker": "rep",
+          "speakerName": "Alex",
+          "text": "Grace Walker will follow up with procurement."
+        },
+        {
+          "speaker": "prospect",
+          "speakerName": "Grace Walker",
+          "text": "Sounds good, appreciate the time today."
+        }
+      ],
+      "groundTruth": {
+        "contacts": [
+          {
+            "name": "Grace Walker",
+            "role": "Director of Operations",
+            "email": null
+          },
+          {
+            "name": "Aisha Wright",
+            "role": "VP of Product",
+            "email": "aisha.wright@palisadegroup.com"
+          }
+        ],
+        "dealStage": "discovery",
+        "actionItems": [
+          {
+            "text": "follow up with procurement",
+            "owner": "Grace Walker",
+            "dueHint": null
+          }
+        ],
+        "companyMentioned": "Palisade Group"
+      }
+    }
+  ]
+}
