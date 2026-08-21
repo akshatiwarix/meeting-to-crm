@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/*
+ * Meeting to CRM palette: neutral paper/ink base, plus a confidence scale
+ * used identically everywhere a field's confidence appears (table badges,
+ * detail page fields, corpus accuracy panel). High confidence reads as
+ * settled/unremarkable; medium as worth a second look; low as flagged, not
+ * hidden.
+ */
+:root {
+  --paper: #f5f4f0;
+  --paper-raised: #ffffff;
+  --ink: #1a1a17;
+  --ink-dim: #6b6459;
+  --line: #ddd9ce;
+  --line-strong: #b6afa0;
+
+  --confidence-high: #3a5a4a;
+  --confidence-high-dim: #cfe0d5;
+  --confidence-medium: #b3701f;
+  --confidence-medium-dim: #efd9b5;
+  --confidence-low: #a23e2e;
+  --confidence-low-dim: #eecac2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #15130f;
+    --paper-raised: #1c1a15;
+    --ink: #ede9e1;
+    --ink-dim: #a49b8a;
+    --line: #332e21;
+    --line-strong: #4a4429;
+
+    --confidence-high: #7fb69c;
+    --confidence-high-dim: #22392f;
+    --confidence-medium: #d6a04a;
+    --confidence-medium-dim: #453214;
+    --confidence-low: #e08871;
+    --confidence-low-dim: #452720;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-confidence-high: var(--confidence-high);
+  --color-confidence-high-dim: var(--confidence-high-dim);
+  --color-confidence-medium: var(--confidence-medium);
+  --color-confidence-medium-dim: var(--confidence-medium-dim);
+  --color-confidence-low: var(--confidence-low);
+  --color-confidence-low-dim: var(--confidence-low-dim);
+  --font-display: var(--font-newsreader);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+* {
+  border-color: var(--line);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
