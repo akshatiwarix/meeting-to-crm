@@ -362,41 +362,50 @@ patterns and assigns confidence from the match itself, never from grading:
 
 ```
 extractContacts:
-  pattern: "This is <Name>, I'm the <Role>" / "<Name>, our <Role>" / plain
-           self-introduction with a name and no role
-  email pattern: a standard email regex anywhere in a contact's own lines
-  confidence: high  = name + role matched by the strong introduction pattern
-              medium = name matched, role inferred from a weaker/looser pattern
-              low    = name matched only by a fallback heuristic (e.g. capitalized
-                        token following "this is"), or two similarly-shaped
-                        candidates found and disambiguation is uncertain
+  pattern: "This is <Name>, I'm the <Role> here[ at <Company>]." — the exact
+           self-introduction shape the corpus generator writes.
+  email: a "you can reach me at <email>" line immediately following, attached
+         by matching that line's speaker to the introduced contact's name.
+  confidence: high = every extracted contact matched the full introduction
+              pattern (name + role); there is no partial-confidence path — a
+              contact who is never introduced by name (the `unnamed-contact`
+              corpus flag) is not extracted at all, a missed field, not a
+              low-confidence guess.
 
 extractDealStage:
-  keyword families, first strong match wins:
+  keyword families, matched by scanning every line for each family's literal
+  substrings:
     closed-won:    "sign the contract", "let's get started", "moving forward with you"
     closed-lost:   "going with someone else", "not moving forward", "not a fit"
     negotiation:   "legal review", "redlines", "contract terms"
     proposal:      "send over pricing", "the proposal", "quote"
     demo:          "schedule a demo", "walk you through the product"
-    discovery:     (default when only exploratory language is present)
-  confidence: high   = exactly one keyword family matched, unambiguously
-              medium = one family matched but alongside weaker/older-stage language
-              low/none = no family matched cleanly, or two conflicting families
-                         matched (ambiguous-by-design meetings) → value: null
+    discovery:     (default when zero families match)
+  confidence: high   = exactly one keyword family matched anywhere in the
+                        transcript
+              medium = zero families matched, but generic discovery/
+                        exploratory language was found (defaults to discovery)
+              low    = zero families matched and no discovery language either
+                        (bare default), OR two or more distinct families
+                        matched — a genuine conflict, value: null
 
 extractActionItems:
-  pattern: "I'll <verb phrase>" / "Let's schedule <noun phrase>" / "<Name> will <verb phrase>"
-  owner: the speaker for "I'll…", the named person for "<Name> will…", null if
-         the sentence has no clear grammatical owner
-  dueHint: a trailing "by <day/date phrase>" clause if present, else null
-  confidence: high = owner and dueHint both resolved; medium = owner resolved,
-              no dueHint; low = neither resolved cleanly
+  pattern: "I'll <verb phrase>[ <due clause>]." / "<Name> will <verb phrase>[ <due clause>]."
+           / "Let's schedule <noun phrase>[ <due clause>]."
+  owner: the speaker for "I'll…", the named person for "<Name> will…", null for
+         "Let's schedule…" (no grammatical owner)
+  dueHint: a trailing "by/next/within/early …" clause if present, else null
+  confidence: high = both owner and dueHint resolved; medium = exactly one of
+              owner/dueHint resolved; low = neither resolved. A sentence
+              matching none of the three patterns (the `vague-action-item`
+              corpus flag) is not extracted at all — a missed field.
 
 extractCompany:
-  pattern: "at <Company>" spoken by a contact introducing themselves, or a
-           company name repeated verbatim from the meeting's committed roster
-  confidence: high if matched via the introduction pattern, low if inferred only
-              from a bare capitalized-token heuristic
+  pattern: the same "here at <Company>" clause captured by extractContacts'
+           introduction pattern, read off the first contact that stated one.
+  confidence: high if any contact's introduction stated a company; otherwise
+              the field is missed (value: null, confidence: low, no bare-token
+              guessing — a wrong guess would be worse than an honest miss).
 
 extractSummary:
   a single templated sentence built from the extracted dealStage and contact
